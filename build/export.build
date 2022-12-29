@@ -1,0 +1,6 @@
+$out_root/
+{
+  include libcrails-fonticons/
+}
+
+export $out_root/libcrails-fonticons/$import.target

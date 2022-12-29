@@ -1,0 +1,12 @@
+: 1
+name: libcrails-fonticons
+version: 2.0.0
+summary: FontIcons helpers for the Crails Framework
+license: BSD-3-Clause
+description-file: README.md
+url: https://github.com/crails-framework/libcrails-fonticons.git
+email: michael@unetresgrossebite.com
+depends: * build2 >= 0.15.0
+depends: * bpkg >= 0.15.0
+depends: libcrails-design-patterns ^2.0.0
+depends: libdatatree ^2.0.0
