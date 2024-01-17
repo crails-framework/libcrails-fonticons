@@ -21,6 +21,7 @@ static const map<IconIdentity, string> default_set = {
   {Forbid,           "ban"},
   {Menu,             "bars"},
   {MinusBox,         "minus-square"},
+  {Plugin,           "puzzle-piece"},
   {PlusBox,          "plus-square"},
   {Settings,         "wrench"},
   {Tools,            "tools"},

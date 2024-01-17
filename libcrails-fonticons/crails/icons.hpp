@@ -14,7 +14,7 @@ namespace Crails
       ChevronLeft, ChevronRight, ChevronUp, ChevronDown,
       EllipsisVertical, Ellipsis,
       Add, Destroy, Save, Forbid,
-      MinusBox, PlusBox, Settings, Tools,
+      MinusBox, PlusBox, Settings, Tools, Plugin,
       Refresh, Sync, Search, Magic, Preview,
       Sort, SortAsc, SortDesc,
       Star, HalfStar,
