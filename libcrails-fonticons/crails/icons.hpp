@@ -12,15 +12,19 @@ namespace Crails
     {
       ArrowLeft, ArrowRight, ArrowUp, ArrowDown,
       ChevronLeft, ChevronRight, ChevronUp, ChevronDown,
+      ChevronDoubleLeft, ChevronDoubleRight, ChevronDoubleUp, ChevronDoubleDown,
       EllipsisVertical, Ellipsis,
-      Add, Destroy, Save, Forbid,
-      MinusBox, PlusBox, Settings, Tools, Plugin,
+      Add, Destroy, Save, Forbid, Share,
+      Upload, Download,
+      Menu, MinusBox, PlusBox, Settings, Tools, Plugin,
       Refresh, Sync, Search, Magic, Preview,
       Sort, SortAsc, SortDesc,
       Star, HalfStar,
       Edit, ExternalLink,
-      Check, Calendar,
-      Menu
+      Check, Calendar, Cloud,
+      MediaPlay, MediaPause, MediaStop, MediaBackward, MediaForward,
+      AudioVolume, AudioVolumeUp, AudioVolumeDown, AudioVolumeMute,
+      File, FileAudio, FileVideo, FilePicture, FileDocument
     };
   }
 
