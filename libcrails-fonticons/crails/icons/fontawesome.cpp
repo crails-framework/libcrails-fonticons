@@ -17,17 +17,24 @@ static const map<IconIdentity, string> default_set = {
   {ChevronDoubleRight, "chevron-double-right"},
   {ChevronDoubleUp,    "chevron-double-up"},
   {ChevronDoubleDown,  "chevron-double-down"},
+  {DeviceDesktop,      "desktop"},
+  {DeviceMobile,       "mobile"},
+  {DeviceTablet,       "tablet"},
+  {DeviceLaptop,       "laptop"},
   {Ellipsis,           "ellipsis"},
   {EllipsisVertical,   "ellipsis-vertical"},
+  {Exit,               "circle-xmark"},
   {Add,                "plus"},
   {Save,               "save"},
   {Destroy,            "trash"},
   {Forbid,             "ban"},
+  {Layout,             "road-barrier"},
   {Share,              "share-alt"},
   {Upload,             "upload"},
   {Download,           "download"},
   {Menu,               "bars"},
   {MinusBox,           "minus-square"},
+  {Move,               "arrows-up-down-left-right"},
   {Plugin,             "puzzle-piece"},
   {PlusBox,            "plus-square"},
   {Settings,           "wrench"},
@@ -100,6 +107,9 @@ string FontAwesome::V6::style_prefix(short style) const
 FontAwesome::V5::V5(FontAwesome::Style default_style) : ThemeBase(default_style)
 {
   icons = default_set;
+  icons[Exit] = "times-circle";
+  icons[Move] = "arrows-alt";
+  icons[Layout] = "flag-checkered";
 }
 
 string FontAwesome::V5::stylesheet_cdn_url() const
