@@ -36,6 +36,7 @@ namespace Crails
   {
     SINGLETON(FontIconTheme)
   public:
+    virtual ~FontIconTheme() = default;
     virtual std::string get(FontIcon::IconIdentity icon, short style = -1) const;
     virtual std::string default_icon() const { return ""; }
     std::string         tag(FontIcon::IconIdentity icon, const std::string& name = "i") const { return tag(icon, -1, name); }
