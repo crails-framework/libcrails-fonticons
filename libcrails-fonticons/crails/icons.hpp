@@ -21,7 +21,7 @@ namespace Crails
       Upload, Download,
       Move,
       Menu, MinusBox, PlusBox, Settings, Tools, Plugin,
-      Refresh, Sync, Search, Magic, Preview,
+      Refresh, Sync, Search, Magic, Preview, Language,
       Sort, SortAsc, SortDesc,
       Star, HalfStar,
       Edit, ExternalLink,

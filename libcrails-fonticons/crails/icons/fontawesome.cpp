@@ -49,6 +49,7 @@ static const map<IconIdentity, string> default_set = {
   {Search,             "search"},
   {Magic,              "magic"},
   {Preview,            "eye"},
+  {Language,           "language"},
   {Edit,               "edit"},
   {ExternalLink,       "external-link"},
   {Check,              "check"},
